@@ -21,3 +21,10 @@ print(Johnny.nombre, Johnny.apellido)
 print("-Edad:", Johnny.edad)
 print("-Idiomas dominados:", Johnny.idiomas)
 print("-Nacionalidad:", Johnny.nacionalidad, "\n")
+
+Taeyong = Empleados("Taeyong", "Lee", 27, "coreano, japones e ingles",
+                    "coreano")
+print(Taeyong.nombre, Taeyong.apellido)
+print("-Edad:", Taeyong.edad)
+print("-Idiomas dominados:", Taeyong.idiomas)
+print("-Nacionalidad:", Taeyong.nacionalidad, "\n")
