@@ -14,3 +14,10 @@ print(Taeil.nombre, Taeil.apellido)
 print("-Edad:", Taeil.edad)
 print("-Idiomas dominados:", Taeil.idiomas)
 print("-Nacionalidad:", Taeil.nacionalidad, "\n")
+
+Johnny = Empleados("Johnny", "Seo", 28, "coreano, ingles, japones y español",
+                   "americano")
+print(Johnny.nombre, Johnny.apellido)
+print("-Edad:", Johnny.edad)
+print("-Idiomas dominados:", Johnny.idiomas)
+print("-Nacionalidad:", Johnny.nacionalidad, "\n")
