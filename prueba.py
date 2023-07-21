@@ -9,13 +9,13 @@ class Empleados:
 
 print("Datos del empleado:")
 
-Taeil = Empleados("Taeil", "Moon", 28, "coreano", "coreano")
+Taeil = Empleados("Taeil", "Moon", 25, "coreano", "coreano")
 print(Taeil.nombre, Taeil.apellido)
 print("-Edad:", Taeil.edad)
 print("-Idiomas dominados:", Taeil.idiomas)
 print("-Nacionalidad:", Taeil.nacionalidad, "\n")
 
-Johnny = Empleados("Johnny", "Seo", 28, "coreano, ingles, japones y español",
+Johnny = Empleados("Johnny", "Sunh", 28, "coreano, ingles, japones y español",
                    "americano")
 print(Johnny.nombre, Johnny.apellido)
 print("-Edad:", Johnny.edad)
